@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Exo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- jost -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- cnd font aweasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login / Register</title>
+</head>
+
+<body>
+    <!--   Header   -->
+    <header>
+        <nav>
+            <img src="./assets/image/LOGO.png" alt="logo">
+            <div>
+                <ul>
+                    <div class="menu home">
+                        <li><a href="./index.html">Home</a></li>
+                    </div>
+                    <div class="menu ">
+                        <li><a href="./Courses.html">courses </a></li>
+                    </div>
+                    <div class="menu ">
+                        <li><a href="./Blog.html">Blog</a></li>
+                    </div>
+                    <div class="menu ">
+                        <li>
+                            <select name="number" id="Page">Page
+                                <option value="Blog">Blog</option>
+                                <option value="Courses">Courses</option>
+                                <option value="Articles">Articles</option>
+                                <option value="contact">Contact</option>
+                            </select>
+                        </li>
+                    </div>
+                    <div class="menu Premium-Theme">
+                        <li><a href="#">Premium Theme</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="login ">
+                <p><a href="./Login.html">Login </a>/ <a href="./Login.html"> Register</a> </p>
+                <div class="search">
+                    <img src="./assets/image/Icon.jpg" alt="search icon">
+                </div>
+
+            </div>
+            <button class="bars"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+        <div class="search-bar">
+            <a href="./index.html"> Homepage </a> <span>></span><a href="./Login.html"> Login / Register</a>
+        </div>
+    </header>
+    <!--   1 section    -->
+    <section class="Login">
+        <div class=" bar login">
+            <h2>Login</h2>
+            <input type="text" name="email or user" placeholder="Email or username *" class="info">
+            <input type="password" name="password" placeholder="Password * " class="info">
+            <label for="check"><input type="checkbox" id="check" value="save name and email">
+                Remember me </label>
+            <button class="button Posts-comment"> Login </button>
+            <p><a href="#"> Lost your password? </a></p>
+        </div>
+        <div class="bar register">
+            <h2>Register</h2>
+            <input type="email" name="email" placeholder="Email *" class="info">
+            <input type="text" name="username" placeholder="Username *" class="info">
+            <input type="password" name="password" placeholder="Password * " class="info">
+            <input type="password" name="Confirm password" placeholder="Confirm password * " class="info">
+
+            <button class="button Posts-comment"> Register </button>
+
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+
+        <div class="end-of-page">
+            <div class="Contact">
+                <img src="./assets/image/LOGO.png" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt necessitatibus labore natus!
+                    Voluptate
+                    dolore molestiae fugiat eum, aperiam ex? </p>
+            </div>
+
+            <div class="GET-HELP">
+                <h4>GET HELP</h4>
+                <ul>
+                    <li><a href="./Contact.html">Contact Us</a></li>
+                    <li><a href="./Articles.html">Latest Articles</a></li>
+                    <li><a href="./FAQ.html">FAQ</a></li>
+                </ul>
+
+            </div>
+            <div class="GET-HELP">
+                <h4>PROGRAMS</h4>
+                <ul>
+                    <li><a href="#">Art & Design</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">IT & Software</a></li>
+                    <li><a href="#">Languages</a></li>
+                    <li><a href="#">Programming</a></li>
+                </ul>
+            </div>
+            <div class="GET-HELP CONTACT-US">
+                <h4>CONTACT US</h4>
+                <p>Address: 2321 New Design Str, Lorem Ipsum10 Hudson Yards, USA</p>
+                <p>Tel: + (123) 2500-567-8988
+                    Mail: supportlms@gmail.com</p>
+                <img src="./assets/image/facebook-Icon.svg" alt="">
+                <img src="./assets/image/pantrestIcon.svg" alt="">
+                <img src="./assets/image/xIcon.svg" alt="">
+                <img src="./assets/image/instaIcon.svg" alt="">
+                <img src="./assets/image/youtubeIcon.svg" alt="">
+
+            </div>
+
+        </div>
+        <p class="copyright">Copyright © 2024 LearnPress LMS | Powered by ThimPress</p>
+    </footer>
+</body>
+
+</html>
